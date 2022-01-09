@@ -22,7 +22,7 @@ module.exports = {
         camelcase: 'off',
         'import/prefer-default-export': 'off',
         'no-param-reassign': 'off',
-        "no-continue": "off",
+        'no-continue': 'off',
     },
     overrides: [
         {
