@@ -15,12 +15,14 @@ module.exports = {
     },
     plugins: ['@typescript-eslint', 'prettier'],
     rules: {
-        'prettier/prettier': ['error'],
+        'prettier/prettier': ['error', {endOfLine: 'auto'}],
         'import/no-unresolved': 'off',
         'import/extensions': 'off',
         'no-bitwise': 'off',
         camelcase: 'off',
         'import/prefer-default-export': 'off',
+        'no-param-reassign': 'off',
+        "no-continue": "off",
     },
     overrides: [
         {
